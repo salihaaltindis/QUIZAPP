@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ADD QUESTION</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src='question.js'></script>
+</head>
+<body>
+    <div class="container justify content-center">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="question.html">Add question</a>
+            <a class="navbar-brand" href="quizpage.html">Users</a>
+            <a class="navbar-brand" href="quizpage.html">Ouiz App</a>
+        </nav>    
+            <div class="form-group" >
+                <label for="questiontext">Large Textarea</label>
+                <textarea type="text" class="form-control" id="questionID"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="Answer">Answer</label>
+                <input type="text" class="form-control" id="answer1"></input>
+                </div>
+            <div class="form-group">
+                <label for="Answer">Answer</label>
+                <input type="text" class="form-control" id="answer2" ></input>
+            </div>
+            <div class="form-group">
+                <label for="Answer">Answer</label>
+                <input type="text" class="form-control" id="answer3" ></input>
+                </div>
+            <div class="form-group">
+                <label for="Answer">Answer</label>
+                <input type="text" class="form-control" id="answer4" ></input>
+            </div>
+            <br>
+            <div class="form-group">
+                <select name="Answers" id="answersID" class="form-control" >
+                    <option selected> Answers will be appear here  </option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <button type="submit" id="addquestionbtn" class="btn btn-info" > Send Question  </button>
+            </div>
+    </div>
+</body>
+</html>

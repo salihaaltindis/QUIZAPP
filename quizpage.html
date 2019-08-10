@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>QUIZ APP</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src='question.js'></script>
+</head>
+<body>
+    <!--Login and quiz page are in the same page.-->
+    <div class="container">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="question.html">Add question</a>
+            <a class="navbar-brand" href="quizpage.html">Users</a>
+            <a class="navbar-brand" href="quizpage.html">Ouiz App</a>
+        </nav>
+        <div class="row">
+            <div class="col-lg text-center">
+                <h1>Quiz App</h1>
+                <div class="form-group">
+                    <input type="text" id="username" placeholder="User name"></input>
+            </div>
+            <div class="form-group">
+                    <input type="text"  id="password" placeholder="Password"></input>
+            </div>
+            <button type="button" id="userbuton" class="btn btn-info">LOGIN</button>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-lg text-center">
+                 <p id = "question"> Questions will apper here </p>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md text-center">
+                <button type="button" id="First" class="btn btn-info">First Option</button>
+            </div>
+            <div class="col-md text-center">
+                <button type="button" id = "Second" class="btn btn-info">Second Option</button>
+                </div>
+            </div>
+            <br>
+        <div class="row">
+            <div class="col-md text-center">
+                <button type="button" id="Third" class="btn btn-info">Third Option</button>
+            </div>
+            <div class="col-md text-center">
+                <button type="button" id="Fourth" class="btn btn-info">Fourth Option</button>
+            </div>
+        </div>
+        <br>
+    </div>
+    
+</body>
+</html>
